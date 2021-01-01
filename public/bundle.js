@@ -308,9 +308,10 @@ function (_React$Component) {
         className: "won"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
         style: {
-          color: '#af002d'
+          color: '#af002d',
+          marginBottom: '2px'
         }
-      }, "YELL HEAH U WIN!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "To Use This Code:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Make sure your Nintendo Switch is up to date"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "From the Ninendo Switch HOME menu, select Nintendo eShop icon"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Select Enter Code on the left side of the screen"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Enter the code above and hit OK!")) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "YELL HEAH U WIN!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "C0HL-P1RG-SSDD-PGLN"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "To Use This Code:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Make sure your Nintendo Switch is up to date"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "From the Ninendo Switch HOME menu, select Nintendo eShop icon"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Select Enter Code on the left side of the screen"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Enter the code above and hit OK!")) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "quiz-field"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, this.state.question), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         style: {
@@ -486,9 +487,10 @@ function (_React$Component) {
         className: "won"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
         style: {
-          color: '#af002d'
+          color: '#af002d',
+          marginBottom: '2px'
         }
-      }, "YELL HEAH U WIN!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "To Use This Code:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Make sure your Nintendo Switch is up to date"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "From the Ninendo Switch HOME menu, select the Nintendo eShop icon"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Select Enter Code on the left side of the screen"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Enter the code above and hit OK!")) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "YELL HEAH U WIN!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "C0J9-TRMR-8TC8-8KRH"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "To Use This Code:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Make sure your Nintendo Switch is up to date"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "From the Ninendo Switch HOME menu, select the Nintendo eShop icon"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Select Enter Code on the left side of the screen"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Enter the code above and hit OK!")) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "quiz-field"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, this.state.question), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
         style: {
@@ -755,7 +757,7 @@ var present1list = {
   },
   8: {
     question: 'this much guacamole is too much guacamole',
-    answer: 'gallon',
+    answer: 'a gallon',
     success: false,
     "char": 'G',
     hint: 'asking for a pal'
@@ -827,7 +829,7 @@ var present2list = {
   },
   2: {
     question: "you're dead to me",
-    answer: "you're dear to me",
+    answer: "youre dear to me",
     success: false,
     "char": '0',
     hint: 'bitmoji love'

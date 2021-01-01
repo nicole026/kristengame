@@ -50,7 +50,7 @@ export const present1list = {
   },
   8: {
     question: 'this much guacamole is too much guacamole',
-    answer: 'gallon',
+    answer: 'a gallon',
     success: false,
     char: 'G',
     hint: 'asking for a pal',
@@ -128,7 +128,7 @@ export const present2list = {
   },
   2: {
     question: `you're dead to me`,
-    answer: `you're dear to me`,
+    answer: `youre dear to me`,
     success: false,
     char: '0',
     hint: 'bitmoji love',

@@ -47,6 +47,17 @@ h1 {
 
 h3 {
   color: #ff7a18;
+  margin: 40px;
+  margin-bottom: 0px;
+}
+
+h4 {
+  margin: 0px;
+  color: #319197;
+}
+
+h5 {
+  margin: 15px;
 }
 
 /*PRESENT*/

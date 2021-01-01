@@ -92,14 +92,17 @@ class Present1 extends React.Component {
 
         {this.state.win ? (
           <div className="won">
-            <h1 style={{color: '#af002d'}}>YELL HEAH U WIN!</h1>
+            <h1 style={{color: '#af002d', marginBottom: '2px'}}>
+              YELL HEAH U WIN!
+            </h1>
+            <h4>C0HL-P1RG-SSDD-PGLN</h4>
             <h3>To Use This Code:</h3>
-            <h4>Make sure your Nintendo Switch is up to date</h4>
-            <h4>
+            <h5>Make sure your Nintendo Switch is up to date</h5>
+            <h5>
               From the Ninendo Switch HOME menu, select Nintendo eShop icon
-            </h4>
-            <h4>Select Enter Code on the left side of the screen</h4>
-            <h4>Enter the code above and hit OK!</h4>
+            </h5>
+            <h5>Select Enter Code on the left side of the screen</h5>
+            <h5>Enter the code above and hit OK!</h5>
           </div>
         ) : (
           <div className="quiz-field">
