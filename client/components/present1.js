@@ -116,17 +116,18 @@ class Present1 extends React.Component {
               }}
               autoComplete="off"
             />
-
-            <button
-              type="submit"
-              className="submitbutton"
-              onClick={this.handleSubmit}
-            >
-              Submit
-            </button>
-            <button type="submit" className="hintbutton" onClick={this.hint}>
-              Hint
-            </button>
+            <div className="buttons">
+              <button
+                type="submit"
+                className="submitbutton"
+                onClick={this.handleSubmit}
+              >
+                Submit
+              </button>
+              <button type="submit" className="hintbutton" onClick={this.hint}>
+                Hint
+              </button>
+            </div>
           </div>
         )}
       </div>

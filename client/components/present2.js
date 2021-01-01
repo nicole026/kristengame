@@ -6,7 +6,7 @@ class Present1 extends React.Component {
     super()
     this.state = {
       selected: 1,
-      question: 'Select a button to begin!',
+      question: `Select a button to begin! (Hot Tip: dont't use any punctuation!)`,
       answer: '',
       hint: '',
       successes: 0,
@@ -116,17 +116,18 @@ class Present1 extends React.Component {
               }}
               autoComplete="off"
             />
-
-            <button
-              type="submit"
-              className="submitbutton"
-              onClick={this.handleSubmit}
-            >
-              Submit
-            </button>
-            <button type="submit" className="hintbutton" onClick={this.hint}>
-              Hint
-            </button>
+            <div className="buttons">
+              <button
+                type="submit"
+                className="submitbutton"
+                onClick={this.handleSubmit}
+              >
+                Submit
+              </button>
+              <button type="submit" className="hintbutton" onClick={this.hint}>
+                Hint
+              </button>
+            </div>
           </div>
         )}
       </div>

@@ -197,7 +197,7 @@ label {
   padding: 0.5em 1em;
   margin: 12px;
   height: 40px;
-  width: 40%;
+  /* width: 40%; */
   border: none;
   font-size: large;
   font-family: 'Josefin Sans', sans-serif;
@@ -214,7 +214,7 @@ label {
   padding: 0.5em 1em;
   margin: 12px;
   height: 40px;
-  width: 40%;
+  /* width: 40%; */
   border: none;
   font-size: large;
   font-family: 'Josefin Sans', sans-serif;

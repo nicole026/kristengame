@@ -327,7 +327,9 @@ function (_React$Component) {
           _this2.handleChange(e);
         },
         autoComplete: "off"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "buttons"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         type: "submit",
         className: "submitbutton",
         onClick: this.handleSubmit
@@ -335,7 +337,7 @@ function (_React$Component) {
         type: "submit",
         className: "hintbutton",
         onClick: this.hint
-      }, "Hint")));
+      }, "Hint"))));
     }
   }]);
 
@@ -392,7 +394,7 @@ function (_React$Component) {
     _this = _possibleConstructorReturn(this, _getPrototypeOf(Present1).call(this));
     _this.state = {
       selected: 1,
-      question: 'Select a button to begin!',
+      question: "Select a button to begin! (Hot Tip: dont't use any punctuation!)",
       answer: '',
       hint: '',
       successes: 0,
@@ -503,7 +505,9 @@ function (_React$Component) {
           _this2.handleChange(e);
         },
         autoComplete: "off"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "buttons"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         type: "submit",
         className: "submitbutton",
         onClick: this.handleSubmit
@@ -511,7 +515,7 @@ function (_React$Component) {
         type: "submit",
         className: "hintbutton",
         onClick: this.hint
-      }, "Hint")));
+      }, "Hint"))));
     }
   }]);
 
