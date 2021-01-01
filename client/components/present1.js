@@ -6,11 +6,11 @@ class Present1 extends React.Component {
     super()
     this.state = {
       selected: 1,
-      question: 'Select a button to begin!',
+      question: `Select a button to begin! (Hot Tip: dont't use any punctuation!)`,
       answer: '',
-      hint: '',
+      hint: ``,
       successes: 0,
-      win: false
+      win: false,
     }
     this.handleClick = this.handleClick.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
@@ -22,20 +22,20 @@ class Present1 extends React.Component {
     this.setState({
       selected: e.target.name,
       question: list[e.target.name].question,
-      hint: '',
-      answer: ''
+      hint: ``,
+      answer: '',
     })
   }
 
   handleChange(e) {
     this.setState({
-      answer: e.target.value
+      answer: e.target.value,
     })
   }
 
   hint() {
     this.setState({
-      hint: list[this.state.selected].hint
+      hint: list[this.state.selected].hint,
     })
   }
 
@@ -43,16 +43,16 @@ class Present1 extends React.Component {
     let answer = this.state.answer.toLowerCase()
     if (this.state.successes === 16) {
       this.setState({
-        win: true
+        win: true,
       })
     }
 
     if (answer === list[this.state.selected].answer) {
       if (!list[this.state.selected].success) {
-        this.setState(prevState => {
+        this.setState((prevState) => {
           return {
             answer: '',
-            successes: prevState.successes + 1
+            successes: prevState.successes + 1,
           }
         })
       }
@@ -64,7 +64,7 @@ class Present1 extends React.Component {
     return (
       <div className="indiv-present">
         <div className="all-buttons">
-          {Object.keys(list).map(element => {
+          {Object.keys(list).map((element) => {
             return (
               <div key={element} className="indiv-present">
                 <button
@@ -79,7 +79,7 @@ class Present1 extends React.Component {
                       ? {backgroundColor: '#58c6ce'}
                       : {backgroundColor: '#353535'}
                   }
-                  onClick={e => {
+                  onClick={(e) => {
                     this.handleClick(e)
                   }}
                 >
@@ -92,21 +92,26 @@ class Present1 extends React.Component {
 
         {this.state.win ? (
           <div className="won">
-            <h1 style={{color: '#af002d'}}>yayay u win</h1>
+            <h1 style={{color: '#af002d'}}>YELL HEAH U WIN!</h1>
             <h3>To Use This Code:</h3>
             <h4>Make sure your Nintendo Switch is up to date</h4>
-            <h4>From the Ninendo Switch HOME menu, select eShop</h4>
+            <h4>
+              From the Ninendo Switch HOME menu, select Nintendo eShop icon
+            </h4>
             <h4>Select Enter Code on the left side of the screen</h4>
             <h4>Enter the code above and hit OK!</h4>
           </div>
         ) : (
           <div className="quiz-field">
             <label>{this.state.question}</label>
-            <label style={{fontSize: '15px'}}>{this.state.hint}</label>
+            <label style={{fontSize: '15px'}}>
+              {this.state.hint}
+              <span style={{color: '#d9dedc'}}>.</span>
+            </label>
             <input
               name="name"
               value={this.state.answer}
-              onChange={e => {
+              onChange={(e) => {
                 this.handleChange(e)
               }}
               autoComplete="off"

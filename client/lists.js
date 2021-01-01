@@ -4,106 +4,107 @@ export const present1list = {
     answer: 'the secret of someone else',
     success: false,
     char: 'C',
-    hint: 'is it like being born again?'
+    hint: 'is it like being born again?',
   },
   2: {
     question: 'similar to 1,000,000,000, but way cooler',
     answer: 'billio',
     success: false,
     char: '0',
-    hint: 'this many boxes'
+    hint: 'this many boxes',
   },
   3: {
-    question: 'a few words to describe the week of march 10th - 16th, 2019',
-    answer: 'anal digging scoop scoop',
+    question: `where'd he go, where'd he go?!`,
+    answer: 'bathroom',
     success: false,
     char: 'H',
-    hint: '@'
+    hint: 'NOOOOOOOOOOOOOOO',
   },
   4: {
     question: 'something bitches love',
     answer: 'leaves',
     success: false,
     char: 'L',
-    hint: `this photo feels like it's missing something... is it... `
+    hint: `this photo feels like it's missing something... is it... `,
   },
   5: {
     question: 'spider does not have this',
     answer: 'pusspuss',
     success: false,
     char: 'P',
-    hint: 'NOOOOOOO'
+    hint: 'NOOOOOOO',
   },
   6: {
-    question: 'If not',
-    answer: 'kkk',
+    question: 'i guess not',
+    answer: 'i disagree',
     success: false,
     char: '1',
-    hint: ''
+    hint: 'the only applicable response',
   },
   7: {
     question: 'ive got dibs on',
     answer: 'raul',
     success: false,
     char: 'R',
-    hint: 'totally PARTYYYYY!!!!'
+    hint: 'totally PARTYYYYY!!!!',
   },
   8: {
-    question: 'how much guacamole is too much guacamole',
+    question: 'this much guacamole is too much guacamole',
     answer: 'gallon',
     success: false,
     char: 'G',
-    hint: 'asking for a pal'
+    hint: 'asking for a pal',
   },
   9: {
     question: 'start the halloween season off right with',
     answer: 'spoopy',
     success: false,
     char: 'S',
-    hint: 'oct 1st'
+    hint: 'oct 1st',
   },
   10: {
     question: 'start the christmas season off right with',
     answer: 'shnegg shnogg',
     success: false,
     char: 'S',
-    hint: 'was late this year'
+    hint: 'was late this year',
   },
   11: {
-    question: 'yoj was born here',
+    question: 'the place that yoj was born',
     answer: 'dunkin donuts',
     success: false,
     char: 'D',
-    hint: 'lincroft'
+    hint: 'lincroft',
   },
   12: {
     question:
-      'character not included in the epic remake of waner bros harry potter and the prisoner of azkaban',
+      'character not included in the epic remake of warner bros harry potter and the prisoner of azkaban',
     answer: 'dudley',
     success: false,
     char: 'D',
-    hint: 'first half of the movie, first name only'
+    hint: 'first half of the movie, first name only',
   },
   13: {
-    question: '* drops sick beat *',
-    answer: 'reeses puffs reeses puffs reeses puffs reeses puffs',
+    question:
+      'cast this to ward yourself from all manner of nefarious curses, hexes, or jinxes',
+    answer: 'protect spell',
     success: false,
     char: 'P',
-    hint: 'PEANUT BUTTER CHOCOLATE FLAVORRR'
+    hint: '* waves hand in across face *',
   },
   14: {
-    question: 'they are hungry, but never cavemen',
+    question: `never cavemen, sometimes hungry`,
     answer: 'ghosts',
     success: false,
     char: 'G',
-    hint: 'also spooky'
+    hint: 'also spooky',
   },
   15: {
-    question: 'if i really gotta go, that means you need to',
+    question: '👁 🌓  2️⃣  💩,  🐑  🦵d  2️⃣',
     answer: 'leave',
     success: false,
     char: 'L',
-    hint: 'i have to poop.'
+    hint: 'i really gotta go, so that means you gotta',
   },
   16: {
     question:
@@ -112,16 +113,124 @@ export const present1list = {
     success: false,
     char: 'N',
     hint:
-      'i told you i would be corn but thats all the real information we got from that convo'
-  }
+      'i told you i would be corn but thats all the real information we got from that convo',
+  },
 }
 
 export const present2list = {
   1: {
-    question: '',
-    answer: '',
+    question:
+      '2020 vivian would have been prepared for the lack of toilet paper, but would probably have an unnecessary abundance of',
+    answer: 'crackers',
     success: false,
-    char: '',
-    hint: ''
-  }
+    char: 'C',
+    hint: 'you once had an entire shelf dedicated to these',
+  },
+  2: {
+    question: `you're dead to me`,
+    answer: `you're dear to me`,
+    success: false,
+    char: '0',
+    hint: 'bitmoji love',
+  },
+  3: {
+    question: `who's winning?`,
+    answer: 'jake is winning',
+    success: false,
+    char: 'J',
+    hint: 'i hate you kyle herring; (full phrase)',
+  },
+  4: {
+    question: 'should i paint him in this style?',
+    answer: 'gargoyles',
+    success: false,
+    char: '9',
+    hint: `"when you said 'this style' did you just show her a bunch of pictures of ______."`,
+  },
+  5: {
+    question: `siht niw ot puc eht teg`,
+    answer: 'draziwirt tnemanruot',
+    success: false,
+    char: 'T',
+    hint: '* flips paper *',
+  },
+  6: {
+    question: '🇷🇺🏘',
+    answer: 'duplex',
+    success: false,
+    char: 'R',
+    hint: 'foot muscle',
+  },
+  7: {
+    question: `'boys go to jupiter to get more stupider' 'well... you kind of contradict yourself with that statement...'`,
+    answer: 'mine own eyes',
+    success: false,
+    char: 'M',
+    hint: 'these roll into the back of mine own head',
+  },
+  8: {
+    question: '🖐... 👎',
+    answer: 'boo hiss',
+    success: false,
+    char: 'R',
+    hint: 'cheney',
+  },
+  9: {
+    question: 'even worse than bad',
+    answer: 'bad with a capital bad',
+    success: false,
+    char: '8',
+    hint: 'like sooo bad',
+  },
+  10: {
+    question: `dholna, vaje tumbe val taar / soode dil de pukar / aaja karle ye pyar`,
+    answer: 'tunak tunak tun',
+    success: false,
+    char: 'T',
+    hint: `तुनक तुनक तूँ, तुनक तुनक तूँ / तुनक तुनक तूँ, दा दा दा`,
+  },
+  11: {
+    question: 'when you dont get that strike',
+    answer: 'chance missed',
+    success: false,
+    char: 'C',
+    hint: '!!!!!!!!!!!!!',
+  },
+  12: {
+    question: `i like dogs`,
+    answer: 'buzz buzz',
+    success: false,
+    char: '8',
+    hint: `i'll say this because you can't`,
+  },
+  13: {
+    question: 'holy shit',
+    answer: 'banana pants',
+    success: false,
+    char: '8',
+    hint: '🍌👖',
+  },
+  14: {
+    question: 'you in my walls cosplaying as',
+    answer: 'kreacher',
+    success: false,
+    char: 'K',
+    hint: 'im giving you a sock so fast',
+  },
+  15: {
+    question: 'you know a weird amount about',
+    answer: 'moose',
+    success: false,
+    char: 'R',
+    hint: 'the males go like enngh enngh but females are like eh eh',
+  },
+  16: {
+    question: 'the outrage, the audacity',
+    answer: 'how dare',
+    success: false,
+    char: 'H',
+    hint:
+      'you think taron edgerton looks like justin beiber you absolute walnut?',
+  },
+  // C0J9-TRMR-8TC8-8KRH
 }

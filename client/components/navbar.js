@@ -3,8 +3,9 @@ import {Link} from 'react-router-dom'
 
 const Navbar = () => (
   <nav>
-    <h1>MERRY KRISTMAS</h1>
-    {/* <hr /> */}
+    <div className="stars">
+      <h1>MERRY KRISTMAS</h1>
+    </div>
   </nav>
 )
 
