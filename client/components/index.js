@@ -4,7 +4,7 @@
  * having to figure out which file they belong to!
  */
 export {default as Navbar} from './navbar'
-export {default as Presents} from './presents'
-// export {default as UserHome} from './user-home'
-export {default as Present1} from './present1'
+export {default as Home} from './home'
 export {default as Present2} from './present2'
+export {default as Timer} from './timer'
+export {default as Generator} from './generator'

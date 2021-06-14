@@ -4,7 +4,8 @@ import {Link} from 'react-router-dom'
 const Navbar = () => (
   <nav>
     <div className="stars">
-      <h1>MERRY KRISTMAS</h1>
+      <div id="nav-fade"></div>
+      <h1><a href="/">GAMU</a></h1>
     </div>
   </nav>
 )

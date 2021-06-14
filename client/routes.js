@@ -7,16 +7,16 @@ import {
   Switch
 } from 'react-router-dom'
 
-import {Presents, Present1, Present2} from './components'
+import {Home, Timer, Generator} from './components'
 
 class Routes extends Component {
   render() {
     return (
       <Router>
         <Switch>
-          <Route exact path="/" component={Presents} />
-          <Route exact path="/present1" component={Present1} />
-          <Route exact path="/present2" component={Present2} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/timer" component={Timer} />
+          <Route exact path="/generator" component={Generator} />
         </Switch>
       </Router>
     )
